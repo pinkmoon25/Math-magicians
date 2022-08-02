@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './calculator.css';
-/*eslint-disable*/
+/*eslint-disable */ //react/prefer-stateless-function
 class Calculator extends Component{
   render() {
     return (
@@ -32,6 +32,6 @@ class Calculator extends Component{
 
 const Button = (props) => <input type="button" value={props.value} id={props.id} className={props.className}/>;
 
-const Display = () => <div class="num-input">0</div>;
+const Display = () => <div className="num-input">0</div>;
 
 export default Calculator;
