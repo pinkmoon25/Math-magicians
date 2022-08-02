@@ -1,0 +1,33 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.num-input {
+  padding: 15px 5px;
+  grid-column: 1/5;
+  text-align: end;
+  background-color: #858293;
+  outline: none;
+}
+
+#zero {
+  grid-column: 1/3;
+}
+
+input {
+  padding: 16px 25px;
+  border-radius: initial;
+  outline: none;
+}
+
+.operator {
+  background-color: #ff8f0f;
+}
