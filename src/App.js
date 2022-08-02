@@ -1,7 +1,12 @@
+import Calculator from './components/calculator';
+
 function App() {
-	return (
-		null
-	);
+  return (
+    <Calculator />
+  );
 }
 
 export default App;
+
+// const root = ReactDOM.createRoot(document.querySelector('body'));
+// root.render(<Calculator />);
