@@ -1,27 +1,25 @@
 # Math-magicians
 
-"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
-
-Make simple calculations.
-Read a random math-related quote.
+ "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+   Make simple calculations.
+   Read a random math-related quote.
 
 ## Built With
 
-- Languages
+- **Languages**
 
-  - [ ] React
-  - [ ] CSS
-  - [ ] JavaScript
+  - *HTML*
+  - *CSS*
+  - *JavaScript*
 
-- Terminologies used
-  - [ ] Linters
-  - [ ] Github workflow
-  - [ ] Gitflow
+- **Library/Frameworks**
+   - *React*
 
  
 ## Live Demo Link
 
-## Presentation Link
+   N/A
+
 
 ### Prerequisites
 
@@ -31,7 +29,14 @@ have a working git on your localmachine.
 
 
 ## 🛠 Installation & Set Up
+To get a working local copy up and running follow these simple steps
 
+- open terminal
+- clone this project with the command:
+
+```
+$ git clone https://github.com/PinkMoon25/Math-magicians.git
+```
 1. Install Node Modules
 
    ```sh
@@ -76,7 +81,7 @@ npm test
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/PinkMoon25/ShowBizz/issues/).
+Feel free to check the [issues page](https://github.com/PinkMoon25/Math-magicians/issues/).
 
 ## Show your support
 
