@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Math-magicians/static/css/main.18f63a60.css",
+    "main.js": "/Math-magicians/static/js/main.f064c186.js",
+    "index.html": "/Math-magicians/index.html",
+    "main.18f63a60.css.map": "/Math-magicians/static/css/main.18f63a60.css.map",
+    "main.f064c186.js.map": "/Math-magicians/static/js/main.f064c186.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18f63a60.css",
+    "static/js/main.f064c186.js"
+  ]
+}
