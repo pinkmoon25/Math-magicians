@@ -18,8 +18,7 @@
  
 ## Live Demo Link
 
-   N/A
-
+   Check it out live :point_right: [Math-magicians](https://pinkmoon25.github.io/Math-magicians/)
 
 ### Prerequisites
 
