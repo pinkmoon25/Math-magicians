@@ -1,5 +1,5 @@
 const Quote = () => (
-  <section className="quote-section">
+  <section className="quote-section" data-testid="quoteSection">
     <blockquote cite="https://www.prodigygame.com/in-en/blog/math-quotes/">
       <p>
         As far as the laws of mathematics refer to reality,
