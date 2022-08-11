@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
 const Header = () => (
-  <header data-testid = 'header'>
+  <header data-testid="header">
     <h1>Math Magicians</h1>
     <nav className="navbar">
       <li key={1}>
