@@ -1,13 +1,32 @@
-const Quote = () => (
-  <section className="quote-section" data-testid="quoteSection">
-    <blockquote cite="https://www.prodigygame.com/in-en/blog/math-quotes/">
-      <p>
-        As far as the laws of mathematics refer to reality,
-        they are not certain, and as far as they are certain, they do not refer to reality.
-      </p>
-      <figcaption>— Albert Einstein</figcaption>
-    </blockquote>
-  </section>
-);
+import React, { useEffect, useState } from 'react';
+
+const Quote = () => {
+  const [quote, setQuote] = useState();
+  const [author, setAuthor] = useState();
+
+  useEffect(() => {
+    const getQuote = async () => {
+      const response = await fetch('https://random-math-quote-api.herokuapp.com/')
+        .then((res) => res.json());
+      setQuote(response.quote);
+      setAuthor(response.author);
+    };
+    getQuote();
+  }, []);
+
+  return (
+    <section className="quote-section" data-testid="quoteSection">
+      <blockquote>
+        <p>
+          {quote}
+        </p>
+        <figcaption>
+          —
+          {author}
+        </figcaption>
+      </blockquote>
+    </section>
+  );
+};
 
 export default Quote;
