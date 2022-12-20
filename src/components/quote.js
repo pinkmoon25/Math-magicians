@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import quotes from '../JSON/quote.json';
 
 const Quote = () => {
   const [quote, setQuote] = useState();
   const [author, setAuthor] = useState();
 
   useEffect(() => {
-    const getQuote = async () => {
-      const response = await fetch('https://random-math-quote-api.herokuapp.com/')
-        .then((res) => res.json());
+    const getQuote = () => {
+      const response = quotes[Math.floor(Math.random() * quotes.length)];
       setQuote(response.quote);
       setAuthor(response.author);
     };
